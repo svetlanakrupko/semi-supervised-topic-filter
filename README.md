@@ -1,16 +1,15 @@
-# Semi-Supervised Topic Filter
+# Semi-Supervised Topic Modeling
 
-This repository contains an R script for semi-supervised topic modeling of social media posts stored in JSON files. The script filters out non-political content to clean the dataset for further analysis.
+This repository contains an R script for semi-supervised topic modeling of social media posts stored in JSON files. The script detect non-political content to later clean the dataset for further analysis.
 
 ## Overview
 
-The script processes social media posts from JSON files, performs topic modeling using the `keyATM` package, and filters out non-political posts based on extracted keywords.
+The script processes social media posts from JSON files, performs topic modeling using the `keyATM` package.
 
 ## Features
 
 - **Text Preprocessing**: Cleans and tokenizes text data.
 - **Topic Modeling**: Identifies and analyzes key topics using `keyATM`.
-- **Keyword Filtering**: Classifies posts as political or non-political.
 
 ## Requirements
 
